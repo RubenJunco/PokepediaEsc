@@ -1,0 +1,17 @@
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+    z-index: 9999; /* Asegúrate de que el aviso emergente esté por encima de otros elementos */
+  }
+  
+  .container {
+    /* Estilos para el contenedor principal */
+    cursor: pointer;
+    
+  }
+  
